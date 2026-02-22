@@ -1,22 +1,22 @@
 class ChromePrivateBridge < Formula
   desc "MCP-native Chrome browser automation bridge"
   homepage "https://github.com/xiaolai/chrome-private-bridge"
-  version "0.2.0"
+  version "0.2.2"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/xiaolai/chrome-private-bridge/releases/download/v0.2.0/chrome-private-bridge-darwin-arm64.tar.gz"
-      sha256 "b6c833beba6ed1fa871e5021983e22b7ed5cadd0c78af4db1f030816da7ace2d"
+      url "https://github.com/xiaolai/chrome-private-bridge/releases/download/v0.2.2/chrome-private-bridge-darwin-arm64.tar.gz"
+      sha256 "47b7fd152fa717d89e0a0f0c06970c2e535765296826df88a3e0516148fb0f14"
     else
-      url "https://github.com/xiaolai/chrome-private-bridge/releases/download/v0.2.0/chrome-private-bridge-darwin-x64.tar.gz"
-      sha256 "1d375e5dbe85f3e769d30619eb274ab835aef63290d4240babdc482bf3dd81ff"
+      url "https://github.com/xiaolai/chrome-private-bridge/releases/download/v0.2.2/chrome-private-bridge-darwin-x64.tar.gz"
+      sha256 "23ae8c96040921ca3afd4b4c32980f6f6cf096514aafffe6787b9f65cfbc9ab0"
     end
   end
 
   on_linux do
-    url "https://github.com/xiaolai/chrome-private-bridge/releases/download/v0.2.0/chrome-private-bridge-linux-x64.tar.gz"
-    sha256 "71b81e2f78f961a32f8bf1470415740820292fbece8ceb1de1c8fa802e893426"
+    url "https://github.com/xiaolai/chrome-private-bridge/releases/download/v0.2.2/chrome-private-bridge-linux-x64.tar.gz"
+    sha256 "3110469136bc5659590281431de3d71cd814bdac4549124c1eac9ce65785b217"
   end
 
   def install
